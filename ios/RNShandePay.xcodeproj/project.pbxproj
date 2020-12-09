@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A58D2C1225807EF200AA92DC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BEC25807EF200AA92DC /* UIProgressView+AFNetworking.m */; };
+		A58D2C1325807EF200AA92DC /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BEE25807EF200AA92DC /* UIRefreshControl+AFNetworking.m */; };
+		A58D2C1425807EF200AA92DC /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BF125807EF200AA92DC /* AFNetworkActivityIndicatorManager.m */; };
+		A58D2C1525807EF200AA92DC /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BF425807EF200AA92DC /* WKWebView+AFNetworking.m */; };
+		A58D2C1625807EF200AA92DC /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BF625807EF200AA92DC /* UIImageView+AFNetworking.m */; };
+		A58D2C1725807EF200AA92DC /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BF925807EF200AA92DC /* UIButton+AFNetworking.m */; };
+		A58D2C1825807EF200AA92DC /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BFA25807EF200AA92DC /* UIActivityIndicatorView+AFNetworking.m */; };
+		A58D2C1925807EF200AA92DC /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BFB25807EF200AA92DC /* AFAutoPurgingImageCache.m */; };
+		A58D2C1A25807EF200AA92DC /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2BFD25807EF200AA92DC /* AFImageDownloader.m */; };
+		A58D2C1B25807EF200AA92DC /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2C0325807EF200AA92DC /* AFURLResponseSerialization.m */; };
+		A58D2C1C25807EF200AA92DC /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2C0425807EF200AA92DC /* AFHTTPSessionManager.m */; };
+		A58D2C1D25807EF200AA92DC /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2C0625807EF200AA92DC /* AFURLSessionManager.m */; };
+		A58D2C1E25807EF200AA92DC /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2C0725807EF200AA92DC /* AFURLRequestSerialization.m */; };
+		A58D2C1F25807EF200AA92DC /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2C0925807EF200AA92DC /* AFNetworkReachabilityManager.m */; };
+		A58D2C2025807EF200AA92DC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2C0A25807EF200AA92DC /* AFSecurityPolicy.m */; };
+		A58D2C2125807EF200AA92DC /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58D2C1025807EF200AA92DC /* libWeChatSDK.a */; };
+		A58D2C2225807EF200AA92DC /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58D2C1125807EF200AA92DC /* libPaymentControl.a */; };
+		A58D2C2625807F4C00AA92DC /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D2C2525807F4C00AA92DC /* RSAUtil.m */; };
+		A5FF433B2580C90E00B93A6A /* PayFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FF433A2580C90E00B93A6A /* PayFramework.framework */; };
+		B3E7B58A1CC2AC0600A0062D /* RNShandePay.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNShandePay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNShandePay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNShandePay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58D2BE825807EF200AA92DC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A58D2BE925807EF200AA92DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A58D2BEB25807EF200AA92DC /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		A58D2BEC25807EF200AA92DC /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		A58D2BED25807EF200AA92DC /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A58D2BEE25807EF200AA92DC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		A58D2BEF25807EF200AA92DC /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A58D2BF025807EF200AA92DC /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		A58D2BF125807EF200AA92DC /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A58D2BF225807EF200AA92DC /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		A58D2BF325807EF200AA92DC /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		A58D2BF425807EF200AA92DC /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		A58D2BF525807EF200AA92DC /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		A58D2BF625807EF200AA92DC /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A58D2BF725807EF200AA92DC /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		A58D2BF825807EF200AA92DC /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		A58D2BF925807EF200AA92DC /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		A58D2BFA25807EF200AA92DC /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A58D2BFB25807EF200AA92DC /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		A58D2BFC25807EF200AA92DC /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A58D2BFD25807EF200AA92DC /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		A58D2BFF25807EF200AA92DC /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A58D2C0025807EF200AA92DC /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A58D2C0125807EF200AA92DC /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A58D2C0225807EF200AA92DC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A58D2C0325807EF200AA92DC /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A58D2C0425807EF200AA92DC /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A58D2C0525807EF200AA92DC /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A58D2C0625807EF200AA92DC /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A58D2C0725807EF200AA92DC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A58D2C0825807EF200AA92DC /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A58D2C0925807EF200AA92DC /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A58D2C0A25807EF200AA92DC /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A58D2C0B25807EF200AA92DC /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		A58D2C0C25807EF200AA92DC /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A58D2C0D25807EF200AA92DC /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		A58D2C0E25807EF200AA92DC /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		A58D2C0F25807EF200AA92DC /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A58D2C1025807EF200AA92DC /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		A58D2C1125807EF200AA92DC /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		A58D2C2425807F4C00AA92DC /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		A58D2C2525807F4C00AA92DC /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		A5FF433A2580C90E00B93A6A /* PayFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayFramework.framework; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNShandePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNShandePay.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNShandePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNShandePay.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FF433B2580C90E00B93A6A /* PayFramework.framework in Frameworks */,
+				A58D2C2125807EF200AA92DC /* libWeChatSDK.a in Frameworks */,
+				A58D2C2225807EF200AA92DC /* libPaymentControl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNShandePay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				A5FF43272580B6C700B93A6A /* RNShandePay */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				A5FF432F2580BE4B00B93A6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A58D2BE725807EF200AA92DC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A58D2BE825807EF200AA92DC /* LICENSE */,
+				A58D2BE925807EF200AA92DC /* README.md */,
+				A58D2BEA25807EF200AA92DC /* UIKit+AFNetworking */,
+				A58D2BFE25807EF200AA92DC /* AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A58D2BEA25807EF200AA92DC /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A58D2BEB25807EF200AA92DC /* WKWebView+AFNetworking.h */,
+				A58D2BEC25807EF200AA92DC /* UIProgressView+AFNetworking.m */,
+				A58D2BED25807EF200AA92DC /* UIButton+AFNetworking.h */,
+				A58D2BEE25807EF200AA92DC /* UIRefreshControl+AFNetworking.m */,
+				A58D2BEF25807EF200AA92DC /* UIImageView+AFNetworking.h */,
+				A58D2BF025807EF200AA92DC /* AFImageDownloader.h */,
+				A58D2BF125807EF200AA92DC /* AFNetworkActivityIndicatorManager.m */,
+				A58D2BF225807EF200AA92DC /* AFAutoPurgingImageCache.h */,
+				A58D2BF325807EF200AA92DC /* UIActivityIndicatorView+AFNetworking.h */,
+				A58D2BF425807EF200AA92DC /* WKWebView+AFNetworking.m */,
+				A58D2BF525807EF200AA92DC /* UIProgressView+AFNetworking.h */,
+				A58D2BF625807EF200AA92DC /* UIImageView+AFNetworking.m */,
+				A58D2BF725807EF200AA92DC /* UIKit+AFNetworking.h */,
+				A58D2BF825807EF200AA92DC /* UIRefreshControl+AFNetworking.h */,
+				A58D2BF925807EF200AA92DC /* UIButton+AFNetworking.m */,
+				A58D2BFA25807EF200AA92DC /* UIActivityIndicatorView+AFNetworking.m */,
+				A58D2BFB25807EF200AA92DC /* AFAutoPurgingImageCache.m */,
+				A58D2BFC25807EF200AA92DC /* AFNetworkActivityIndicatorManager.h */,
+				A58D2BFD25807EF200AA92DC /* AFImageDownloader.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		A58D2BFE25807EF200AA92DC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A58D2BFF25807EF200AA92DC /* AFSecurityPolicy.h */,
+				A58D2C0025807EF200AA92DC /* AFNetworkReachabilityManager.h */,
+				A58D2C0125807EF200AA92DC /* AFURLSessionManager.h */,
+				A58D2C0225807EF200AA92DC /* AFURLRequestSerialization.h */,
+				A58D2C0325807EF200AA92DC /* AFURLResponseSerialization.m */,
+				A58D2C0425807EF200AA92DC /* AFHTTPSessionManager.m */,
+				A58D2C0525807EF200AA92DC /* AFURLResponseSerialization.h */,
+				A58D2C0625807EF200AA92DC /* AFURLSessionManager.m */,
+				A58D2C0725807EF200AA92DC /* AFURLRequestSerialization.m */,
+				A58D2C0825807EF200AA92DC /* AFNetworking.h */,
+				A58D2C0925807EF200AA92DC /* AFNetworkReachabilityManager.m */,
+				A58D2C0A25807EF200AA92DC /* AFSecurityPolicy.m */,
+				A58D2C0B25807EF200AA92DC /* AFCompatibilityMacros.h */,
+				A58D2C0C25807EF200AA92DC /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A5FF43272580B6C700B93A6A /* RNShandePay */ = {
+			isa = PBXGroup;
+			children = (
+				A5FF433A2580C90E00B93A6A /* PayFramework.framework */,
+				B3E7B5881CC2AC0600A0062D /* RNShandePay.h */,
+				B3E7B5891CC2AC0600A0062D /* RNShandePay.m */,
+				A58D2BE725807EF200AA92DC /* AFNetworking */,
+				A58D2C1125807EF200AA92DC /* libPaymentControl.a */,
+				A58D2C1025807EF200AA92DC /* libWeChatSDK.a */,
+				A58D2C0D25807EF200AA92DC /* UPPaymentControl.h */,
+				A58D2C0F25807EF200AA92DC /* WXApi.h */,
+				A58D2C0E25807EF200AA92DC /* WXApiObject.h */,
+				A58D2C2425807F4C00AA92DC /* RSAUtil.h */,
+				A58D2C2525807F4C00AA92DC /* RSAUtil.m */,
+			);
+			path = RNShandePay;
+			sourceTree = "<group>";
+		};
+		A5FF432F2580BE4B00B93A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNShandePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNShandePay" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNShandePay;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNShandePay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNShandePay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNShandePay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58D2C1425807EF200AA92DC /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A58D2C1625807EF200AA92DC /* UIImageView+AFNetworking.m in Sources */,
+				A58D2C2625807F4C00AA92DC /* RSAUtil.m in Sources */,
+				A58D2C1725807EF200AA92DC /* UIButton+AFNetworking.m in Sources */,
+				A58D2C1C25807EF200AA92DC /* AFHTTPSessionManager.m in Sources */,
+				A58D2C1225807EF200AA92DC /* UIProgressView+AFNetworking.m in Sources */,
+				A58D2C1E25807EF200AA92DC /* AFURLRequestSerialization.m in Sources */,
+				A58D2C1B25807EF200AA92DC /* AFURLResponseSerialization.m in Sources */,
+				A58D2C1F25807EF200AA92DC /* AFNetworkReachabilityManager.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNShandePay.m in Sources */,
+				A58D2C1525807EF200AA92DC /* WKWebView+AFNetworking.m in Sources */,
+				A58D2C1925807EF200AA92DC /* AFAutoPurgingImageCache.m in Sources */,
+				A58D2C1A25807EF200AA92DC /* AFImageDownloader.m in Sources */,
+				A58D2C2025807EF200AA92DC /* AFSecurityPolicy.m in Sources */,
+				A58D2C1825807EF200AA92DC /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				A58D2C1D25807EF200AA92DC /* AFURLSessionManager.m in Sources */,
+				A58D2C1325807EF200AA92DC /* UIRefreshControl+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-D__IPHONE_OS_VERSION_MIN_REQUIRED=040100";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-D__IPHONE_OS_VERSION_MIN_REQUIRED=040100";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RNShandePay",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNShandePay;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RNShandePay",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNShandePay;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNShandePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNShandePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
