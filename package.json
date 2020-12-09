@@ -1,0 +1,25 @@
+{
+  "name": "react-native-shande-pay",
+  "version": "1.0.1",
+  "description": "## Getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/286581424/shandePay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/286581424/shandePay/issues"
+  },
+  "homepage": "https://github.com/286581424/shandePay#readme"
+}
